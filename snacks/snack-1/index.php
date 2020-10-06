@@ -30,8 +30,7 @@ $matchesArray =
 ];
 // make a for cicle to fint the values inside of the matches array
 for ($i=0; $i < count($matchesArray) ; $i++) {
-   echo $matchesArray[$i][Domestic_team]." - ".$matchesArray[$i][foreign_team]." / ".$matchesArray[$i][Domestic_scores]."-".$matchesArray[$i][foreign_scores]." | ";
+   echo $matchesArray[$i][Domestic_team]." - ".$matchesArray[$i][foreign_team]." / ".$matchesArray[$i][Domestic_scores]."-".$matchesArray[$i][foreign_scores]." | ". "<br>";
 }
 // print the results on screen
-echo $matchesArray
 ?>
