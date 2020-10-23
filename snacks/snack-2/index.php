@@ -12,7 +12,7 @@ $age = $_GET["age"];
  }
  //check the email data
  if (!strpos($email, "@") || !strpos($email, ".")) {
-   $name = "Name is not right, please insert it again";
+   $email = "email is not right, please insert it again";
  }
  //check the age data
  if (!is_numeric($age)) {
